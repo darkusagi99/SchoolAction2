@@ -1,0 +1,10 @@
+name: Reusable Workflow Caller
+on: 
+  workflow_dispatch:
+
+jobs:
+  call-sub-workflow :
+    uses : darkusagi99/SchoolAction/.github/workflows/ex4.yaml@v1
+    with:
+      node-version: 14
+  
