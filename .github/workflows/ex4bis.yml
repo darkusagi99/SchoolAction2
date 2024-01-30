@@ -4,7 +4,7 @@ on:
 
 jobs:
   call-sub-workflow :
-    uses : darkusagi99/SchoolAction/.github/workflows/ex4.yaml@v1
+    uses : darkusagi99/SchoolAction/.github/workflows/ex4.yaml@main
     with:
       node-version: 14
   
